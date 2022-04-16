@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(41, 41, 41);
+    margin: 0;
+}
+
+.h1 {
+    color: rgb(255, 187, 0);
+    user-select: none;
+    /* margin-left: 45%; */
+    text-align: center;
+    box-shadow: 0 0 15px black;
+}
+
+.canvas {
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgb(255, 173, 51);
+    box-shadow:0px 0px 100px 30px rgb(121, 74, 3);
+}
+
+.canvas:hover {
+    /* margin-top: 95px; */
+    box-shadow:0px 0px 100px 30px rgb(9, 95, 16);
+    border: 3px solid rgb(87, 199, 83);
+}
